@@ -21,7 +21,7 @@ searchForm.addEventListener("submit", async function (event) {
   );
 
   // Pega somente os 10 primeiros e mostra no console
-  const products = (await data.json()).results.slice(0, 14);
+  const products = (await data.json()).results.slice(0, 12);
 
   // Chama a função Displayitems passando os produtos
   Displayitems(products);
