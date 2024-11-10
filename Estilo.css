@@ -50,7 +50,6 @@ form {
     border-radius: 25px;
     outline: none;
     min-width: 200px;
-    max-width: 250px; /* Limita o tamanho máximo do input */
 }
 
 .product-input:focus {
@@ -67,7 +66,6 @@ button {
     border-radius: 25px;
     transition: 0.5s;
     min-width: 150px;
-    max-width: 150px; /* Limita o tamanho máximo do botão */
 }
 
 button:hover {
@@ -126,7 +124,6 @@ button:hover {
     width: 100%;
     height: 400px; /* Adiciona uma altura fixa para o gráfico */
 }
-
 /* Media Queries */
 @media (max-width: 768px) {
     h1 {
@@ -139,7 +136,7 @@ button:hover {
 
     .product-input, button {
         font-size: 14px;
-        max-width: 100%;  /* Faz o input e o botão ocuparem 100% da largura disponível */
+        max-width: 100%;  
     }
 
     .product-card {
@@ -163,7 +160,7 @@ button:hover {
     .product-input, button {
         font-size: 14px;
         padding: 10px;
-        max-width: 100%;  /* Faz o input e o botão ocuparem 100% da largura disponível */
+        max-width: 100%; 
     }
 
     .product-card {
