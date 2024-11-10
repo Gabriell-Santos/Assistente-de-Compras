@@ -39,9 +39,10 @@ form {
     gap: 15px;
     margin-bottom: 30px;
     flex-wrap: wrap; /* Permite que o formulário seja responsivo */
-    justify-content: center;
+    justify-content: center; /* Centraliza os itens do formulário */
 }
 
+/* Barra de pesquisa */
 .product-input {
     flex-grow: 1;
     padding: 10px;
@@ -56,6 +57,7 @@ form {
     box-shadow: 0 0 5px var(--primary-color);
 }
 
+/* Botão de pesquisa */
 button {
     padding: 12px 25px;
     background-color: var(--primary-color);
@@ -124,8 +126,23 @@ button:hover {
     width: 100%;
     height: 400px; /* Adiciona uma altura fixa para o gráfico */
 }
+
 /* Media Queries */
 @media (max-width: 768px) {
+    /* Quando a tela for menor que 768px (mobile e tablets), o botão e a barra de pesquisa ficam lado a lado */
+    form {
+        flex-direction: row;  /* Alinha os itens na horizontal */
+        gap: 10px;  /* Diminui o espaçamento entre eles */
+    }
+
+    .product-input {
+        min-width: 0; /* Permite que o campo de busca use o máximo de espaço possível */
+    }
+
+    button {
+        min-width: 0; /* O botão vai se ajustar de acordo com o tamanho da tela */
+    }
+
     h1 {
         font-size: 2em;
     }
@@ -136,7 +153,6 @@ button:hover {
 
     .product-input, button {
         font-size: 14px;
-        max-width: 100%;  
     }
 
     .product-card {
@@ -160,7 +176,6 @@ button:hover {
     .product-input, button {
         font-size: 14px;
         padding: 10px;
-        max-width: 100%; 
     }
 
     .product-card {
