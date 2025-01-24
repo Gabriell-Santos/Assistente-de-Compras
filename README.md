@@ -20,4 +20,4 @@
 
 ---
 
-Feito com ❤️ por [Gabriel dos Santos Ferreira](https://github.com/Gabriell-Santos)
+✍️ Feito com amor por [Gabriell-Santos](https://github.com/Gabriell-Santos) ❤️ 🌐 🖋️
