@@ -16,7 +16,6 @@
 - **Frontend**: HTML, CSS, JavaScript
 - **API**: Mercado Livre API
 - **Gráficos**: Biblioteca para gráficos dinâmicos
-- **Design Responsivo**: Para dispositivos móveis e desktops
 
 ---
 
