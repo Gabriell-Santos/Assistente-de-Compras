@@ -39,5 +39,5 @@ Após clonar o repositório, navegue até o diretório do projeto com o comando:
 ```bash
 cd Assistente-de-Compras
 ```
-
-✍️ Feito com amor por Gabriell -Santos ❤️
+---
+✍️ Feito com amor por [Gabriell-Santos](https://github.com/Gabriell-Santos) ❤️ 🌐 🖋️
