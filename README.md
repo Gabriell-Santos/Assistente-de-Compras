@@ -11,6 +11,8 @@
 - **Comparação de preços**: Gráfico de barras dinâmico que facilita a visualização das melhores ofertas.
 - **Interface responsiva**: A experiência é otimizada tanto para desktop quanto para dispositivos móveis.
 
+---
+
 ## ⚙️ Tecnologias Utilizadas
 
 - **Frontend**: HTML, CSS, JavaScript
@@ -19,4 +21,23 @@
 
 ---
 
-✍️ Feito com amor por [Gabriell-Santos](https://github.com/Gabriell-Santos) ❤️ 🌐 🖋️
+## 🖥️ Como Usar
+
+Siga as etapas abaixo para clonar e executar o projeto localmente:
+
+### 1️⃣ Pré-requisitos
+Certifique-se de ter o **Git** e um navegador web instalados em sua máquina.
+
+### 2️⃣ Clone o Repositório
+Abra o terminal e execute o seguinte comando para clonar o repositório:
+
+```bash
+git clone https://github.com/Gabriell-Santos/Assistente-de-Compras.git
+```
+### 3️⃣ Acesse a Pasta do Projeto
+Após clonar o repositório, navegue até o diretório do projeto com o comando:
+```bash
+cd Assistente-de-Compras
+```
+
+✍️ Feito com amor por Gabriell -Santos ❤️
