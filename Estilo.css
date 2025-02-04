@@ -124,23 +124,35 @@ button:hover {
 .Price-chart {
     margin-top: 65px;
     width: 100%;
-    height: 400px; /* Adiciona uma altura fixa para o gráfico */
+    height: 400px; 
 }
+
+.product-link {
+    color: #05253a;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.product-link:hover{
+    color: #2980b9;
+}
+
+
 
 /* Media Queries */
 @media (max-width: 768px) {
     /* Quando a tela for menor que 768px (mobile e tablets), o botão e a barra de pesquisa ficam lado a lado */
     form {
-        flex-direction: row;  /* Alinha os itens na horizontal */
-        gap: 10px;  /* Diminui o espaçamento entre eles */
+        flex-direction: row;  
+        gap: 10px;  
     }
 
     .product-input {
-        min-width: 0; /* Permite que o campo de busca use o máximo de espaço possível */
+        min-width: 0; 
     }
 
     button {
-        min-width: 0; /* O botão vai se ajustar de acordo com o tamanho da tela */
+        min-width: 0;
     }
 
     h1 {
