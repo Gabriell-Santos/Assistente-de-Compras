@@ -49,6 +49,11 @@ function Displayitems(products) {
           </p>
 
           <p class="product-store" > Loja : ${product.seller.nickname} </p>
+
+          <a href=${product.permalink}
+          target="_blank"
+          class="product-link"
+          >Ver produto</a>
         </div>
       `
     )
