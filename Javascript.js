@@ -53,7 +53,8 @@ function Displayitems(products) {
           <a href=${product.permalink}
           target="_blank"
           class="product-link"
-          >Ver Produto</a>
+          > Ver Produto
+          </a>
         </div>
       `
     )

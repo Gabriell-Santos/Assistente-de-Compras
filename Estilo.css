@@ -128,13 +128,13 @@ button:hover {
 }
 
 .product-link {
-    color: #05253a;
+    color: #2980b9;
     font-size: 1.2rem;
     text-decoration: none;
 }
 
 .product-link:hover{
-    color: #2980b9;
+    color: #123d59;
 }
 
 
