@@ -197,4 +197,8 @@ button:hover {
     .Price-chart {
         height: 250px;
     }
+
+    .product-link{
+        color: #2980b9;
+    }
 }
